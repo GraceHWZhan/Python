@@ -1,0 +1,10 @@
+# 隨堂作業：請設計一個"自動 自我介紹 套表產生器"
+
+name = input("請輸入您的大名")
+birthyear = input("請輸入您的出生年")
+hometown = input("請輸入您的家鄉")
+studyyear = input("請輸入您的系別")
+
+print()
+print("               " + "自傳")
+print("大家好！我的名字是：" + name + "出生於" + birthyear + "年" + "," + "家鄉在" + hometown + "。\n" + "目前是" + studyyear + "的學生" + "。" + "正值寫論文，請大家別再問何時畢業，謝謝。")
